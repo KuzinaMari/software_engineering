@@ -1,0 +1,5 @@
+task startService {
+	exec {
+		commandLine 'coffee', 'index.coffee'
+	}
+}
